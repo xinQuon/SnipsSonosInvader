@@ -42,11 +42,11 @@ def onMessage(client, userdata, message):
 
 	if message.topic == _INTENT_INVADE:
 		_speakOnSonos = True
-		endTalk(sessionId=sessionId, text='Ok, speaking to you through your Sonos when possible!', client=siteId)
+		endTalk(sessionId=sessionId, text='Ok, ich werde über Sonos sprechen wenn möglich!', client=siteId)
 
 	elif message.topic == _INTENT_LEAVE:
 		_speakOnSonos = False
-		endTalk(sessionId=sessionId, text='Ok, I won\'t use your Sonos anymore', client=siteId)
+		endTalk(sessionId=sessionId, text='Ok, ich werde Sonos nicht mehr verwenden', client=siteId)
 
 	elif message.topic == _INTENT_TIME:
 		hours = datetime.now().strftime('%I')
