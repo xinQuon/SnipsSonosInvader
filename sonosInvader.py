@@ -19,8 +19,8 @@ _LANGUAGE = 'de-DE'
 #------------------------------------#
 _RUNNING = True
 
-_INTENT_INVADE	= 'hermes/intent/Psychokiller1888:sonosInvade'
-_INTENT_LEAVE	= 'hermes/intent/Psychokiller1888:sonosRetreat'
+_INTENT_INVADE	= 'hermes/intent/xion:sonosInvade'
+_INTENT_LEAVE	= 'hermes/intent/xion:sonosRetreat'
 _INTENT_TIME	= 'hermes/intent/Psychokiller1888:getLocalTime'
 
 _myIp = '0.0.0.0'
