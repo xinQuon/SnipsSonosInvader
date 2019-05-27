@@ -21,7 +21,7 @@ _RUNNING = True
 
 _INTENT_INVADE	= 'hermes/intent/xion:sonosInvade'
 _INTENT_LEAVE	= 'hermes/intent/xion:sonosRetreat'
-_INTENT_TIME	= 'hermes/intent/Psychokiller1888:getLocalTime'
+_INTENT_TIME	= 'hermes/intent/xion:getLocalTime'
 
 _myIp = '0.0.0.0'
 _speakOnSonos = False
