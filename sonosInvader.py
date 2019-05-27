@@ -13,8 +13,8 @@ from soco.snapshot import Snapshot
 import subprocess
 import time
 
-_CORE_PLACEMENT = 'office'
-_LANGUAGE = 'en-US'
+_CORE_PLACEMENT = 'Esszimmer'
+_LANGUAGE = 'de-DE'
 
 #------------------------------------#
 _RUNNING = True
